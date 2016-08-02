@@ -1,0 +1,56 @@
+header {
+	border: 1px solid orange;
+}
+
+ul.nav li {
+	display: inline;
+	list-style: none;
+	margin: 0 10px;
+}
+
+.disabled {
+	color: grey;
+}
+
+.a > .disabled {
+	color: purple;
+}
+
+.active {
+	color: yellow;
+}
+
+.grandparent > h4 {
+	color: red;
+	border-radius: 30px 30px 30px 30px;
+	border: 10px;
+	background-color: #73AD21;
+}
+
+.parent > div > div:nth-of-type(2n+1) {
+	color: red;
+}
+
+.parent > div > div:nth-of-type(2n+0) {
+	color: lightblue;
+}
+
+
+.parent > div > h4:nth-of-type(2n+1) {
+	background-color: red;
+}
+
+
+.parent > div > h4:nth-of-type(2n+2) {
+	background-color: blue;
+}
+
+.promo {
+
+	text-decoration-style: bold;
+	color: gold;
+}
+
+input {
+	height: 25px;
+}
